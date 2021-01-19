@@ -1,0 +1,200 @@
+*{   
+    font-family: 'Open Sans', sans-serif;
+    
+    }
+
+body{color:midnightblue;
+    background-color: whitesmoke;
+    background-image: linear-gradient(to right bottom, #f5f5f5, #f1f7fc, #e6fbfd);      
+          
+}
+
+header{margin-top: 5px;
+    padding: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: nowrap;}
+
+header a:hover{text-decoration: none;}
+
+/*PRIMER NIVEL NAV*/
+
+nav{justify-content: center;}
+nav a:hover{background:white;}
+
+
+    
+
+         
+
+/*SEGUNDO NIVEL NAV*/
+
+nav ul ul{position: absolute;
+    display: none;
+    padding: 5px;}
+   
+
+nav ul ul li{display:block;}
+nav li li:hover {background: white}
+          
+         
+nav ul li:hover ul{display: block;}
+
+
+/*SECCIONES INDEX*/
+
+article{width: 50%;}
+
+aside{width: 50%;}
+
+.displayIndex{display: flex;
+          flex-direction:row;    
+          flex-wrap: wrap;
+          width: 100%;
+          margin-top: 20px;
+          }
+
+
+footer{text-align:center; width: 100%;}
+
+
+
+
+
+p{margin:30px; padding:10px}
+h1{text-align: center; font-size: 250%; text-transform: uppercase; margin-top: 10px; font-weight: bold;color:midnightblue}
+
+h3{text-align: center;}
+a{text-decoration: none;}
+li{margin: 10px;}
+
+#enlaceSeleccionado{color: coral;}
+
+
+
+
+
+
+
+/* Estilo Imagenes portada*/
+
+.fotoRaid{border: black 2px;
+          border-style: solid;}
+                          
+.bordesRedondeados{border-radius:50px;}
+
+.logo2{ padding: 10px;
+    border: 2px solid black;
+    margin-left: 20px;
+    }
+.logo1{ padding:10px;
+    border: 2px solid black;
+    margin-right: 20px;
+    float: right;}
+
+/*PAGINA PROXIMOS DESAFIOS*/
+h2.centrar{text-align: center;}
+.displayCarreras{display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: space-between}
+
+
+.fondosProximos{background-color: #FAF8FF;}
+
+div.transicion{
+          cursor: pointer;}
+div.transicion :hover{transform: scale(1.2);}
+
+/*PAGINA EXPERIENCIAS*/
+
+/*GRIDS EXPERIENCIAS*/
+
+
+
+#texto{grid-area: texto;
+font-style: italic;
+}
+
+.videoResponsive{position: relative; 
+                height: 0;
+                overflow: hidden;
+                padding-bottom: 50%;}
+
+.videoResponsive iframe{position: absolute;
+                        width: 100%;
+                        height: 100%;}
+
+footer{margin-top: 20px;
+}                     
+
+/*TIENDAS AMIGAS*/
+
+
+
+.mapaResponsive{position: relative;
+                height: 0;
+                overflow: hidden;
+                padding-bottom: 50%;}
+.mapaResponsive iframe{position: absolute;
+                        width: 100%;
+                        height: 100%;}
+
+
+/*PAGINA NOSOTROS*/
+
+
+
+
+
+
+
+.margenLimpiar{margin-left: 22px; margin-top: 10px;}
+
+.listaComentarios{font-style:italic;}
+
+
+
+
+
+
+/*SASS*/
+
+
+.redes__instagram{margin: 10px;
+                margin-top: 25px;}
+.redes__twitter{margin: 10px;margin-top: 25px;}
+.redes__fb{margin: 10px;margin-top:25px}
+.redes{display: flex;flex-direction: row;}
+
+/*SASS CONDICIONAL*/
+
+@import "_variables";
+
+.situacionUno{@if$condicion==normal{background-color: green;}
+    @else if $condicion==suspendida{background-color: red;}
+    @else if $condicion==postergada{background-color: yellow;}
+}
+
+.situacionDos{@if$condiciondos==normal{background-color: green;}
+    @else if $condiciondos==suspendida{background-color: red;}
+    @else if $condiciondos==postergada{background-color: yellow;}
+}
+
+.situacionTres{@if$condiciontres==normal{background-color: green;}
+    @else if $condiciontres==suspendida{background-color: red;}
+    @else if $condiciontres==postergada{background-color: yellow;}
+}
+
+
+
+
+
+
+
+
+
+
+
