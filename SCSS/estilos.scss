@@ -58,6 +58,25 @@ aside{width: 50%;}
 
 footer{text-align:center; width: 100%;}
 
+aside li{list-style: none;}
+
+@keyframes animacion{
+    0%{background-color: #D2D5DB;}
+    25%{background-color:#849BA2 ;}
+    50%{background-color: #608080;}
+   
+
+}
+
+li.animacion {
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    width: 100%;
+}
+
+
 
 
 
