@@ -175,6 +175,11 @@ footer {
   margin-left: 22px;
   margin-top: 10px; }
 
+.comentarios {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
 .listaComentarios {
   font-style: italic; }
 
