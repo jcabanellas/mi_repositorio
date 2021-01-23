@@ -171,9 +171,18 @@ footer {
   height: 100%; }
 
 /*PAGINA NOSOTROS*/
-.margenLimpiar {
-  margin-left: 22px;
-  margin-top: 10px; }
+.enviar {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
+
+.consulta {
+  display: flex;
+  flex-direction: row; }
+
+.tilde {
+  margin-top: auto;
+  margin-bottom: auto; }
 
 .comentarios {
   text-align: center;
