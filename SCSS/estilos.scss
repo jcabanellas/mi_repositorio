@@ -123,14 +123,47 @@ h2.centrar{text-align: center;}
 
 .fondosProximos{background-color: #FAF8FF;}
 
-div.transicion{
-          cursor: pointer;}
-div.transicion :hover{transform: scale(1.2);}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    cursor: pointer;}
+
+.card figure{position: relative;}
+
+.card figure img{transition: all 500ms ease-out;
+                overflow: hidden;}
+.card figure .capa{position: absolute;
+                    background: rgba(54, 70, 158, 0.55);
+                    transition:all 500ms ease-out;
+                    top: 0;
+                    visibility: hidden;
+                    text-align: center;
+                    opacity: 0;
+                    width: auto;
+                    height: auto;
+                    }
+
+.card figure:hover >.capa {
+        opacity: 1;
+        visibility: visible;
+
+}
+
+
 
 /*PAGINA EXPERIENCIAS*/
 
 /*GRIDS EXPERIENCIAS*/
-
 
 
 #texto{grid-area: texto;
