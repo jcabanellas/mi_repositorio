@@ -51,7 +51,8 @@ aside {
 
 footer a:hover {
   background: #D2D5DB;
-  text-decoration: none; }
+  text-decoration: none;
+  color: midnightblue; }
 
 .displayIndex {
   display: flex;
@@ -175,6 +176,9 @@ h2.centrar {
 .card figure:hover > .capa {
   opacity: 1;
   visibility: visible; }
+
+.nodeco:hover {
+  color: midnightblue; }
 
 /*PAGINA EXPERIENCIAS*/
 /*GRIDS EXPERIENCIAS*/
