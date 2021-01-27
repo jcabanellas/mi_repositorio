@@ -24,6 +24,9 @@ nav {
 nav a:hover {
   background: #D2D5DB; }
 
+.navbar-light .nav-item .nav-link {
+  color: midnightblue; }
+
 /*SEGUNDO NIVEL NAV*/
 nav ul ul {
   position: absolute;
@@ -45,6 +48,10 @@ article {
 
 aside {
   width: 50%; }
+
+footer a:hover {
+  background: #D2D5DB;
+  text-decoration: none; }
 
 .displayIndex {
   display: flex;
@@ -91,7 +98,8 @@ h3 {
   text-align: center; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: midnightblue; }
 
 li {
   margin: 10px; }
