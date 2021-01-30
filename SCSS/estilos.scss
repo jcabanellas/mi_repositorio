@@ -153,23 +153,25 @@ h2.centrar{text-align: center;}
 .card figure img{transition: all 500ms ease-out;
                 overflow: hidden;}
 .capa{position: absolute;
-                    background: rgba(4, 4, 7, 0.5);
-                    transition:all 500ms ease-out;
-                    bottom: 0;
-                    visibility: hidden;
-                    text-align: center;
-                    opacity: 0;
-                    width: auto;
-                    height: auto;
-                    margin-left: auto;
-                    margin-right: auto;
+    background: rgba(5, 11, 14, 0.678);
+    transition:all 500ms ease-out;
+    bottom: 0;
+    visibility: hidden;
+    text-align: center;
+    opacity: 0;
+    width: auto;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    color: white;
                     
                     
                     }
 
 .card figure:hover .capa {
-        opacity: 1;
-        visibility: visible;}
+                            opacity: 1;
+                            visibility: visible;}
 
 /*hover para resto de carreras*/
 
@@ -180,8 +182,8 @@ h2.centrar{text-align: center;}
         }
         
 .card figure:hover .capa--yacanto{
-            opacity: 1;
-            visibility: visible;}
+                                    opacity: 1;
+                                    visibility: visible;}
 
 
 .capa--cruce {
@@ -196,7 +198,7 @@ h2.centrar{text-align: center;}
                 
 .capa--yaboty {
             @extend .capa;
-            background: rgba(223, 223, 223, 0.618);
+            background: rgba(165, 161, 161, 0.81);
             color: white;
                         }
                         
@@ -204,20 +206,52 @@ h2.centrar{text-align: center;}
                             opacity: 1;
                             visibility: visible;}        
         
-        
+.capa--fiambala {
+            @extend .capa;
+            background: rgba(14, 8, 1, 0.61);
+            color: white;
+                                            }
+                                            
+.card figure:hover .capa--fiambala{
+                   
+                    opacity: 1;
+                    visibility: visible;}     
             
         
         
-
+.capa--ushuaia {
+                @extend .capa;
+                background: rgba(14, 8, 1, 0.61);
+                color: white;}
+                                                        
+.card figure:hover .capa--ushuaia{
+                                
+                                opacity: 1;
+                                visibility: visible;}  
 
 
 
 /*PAGINA EXPERIENCIAS*/
 
+.haruki{margin:30px;
+        padding: 10px;}
 
 .testimonio{margin-top: 30px;
-   
-}
+            margin-left: 0px;
+            margin-bottom: 0px;
+            padding: 0px;
+            
+            }
+
+
+.fototesti{display: block;
+            margin: auto;}
+
+.linea{height: 3px;
+        background-color: #005A34;
+        width: 10%;
+        display: inline-block;
+        }
 
 /*GRIDS EXPERIENCIAS*/
 
