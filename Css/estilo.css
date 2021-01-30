@@ -164,21 +164,38 @@ h2.centrar {
 
 .card figure .capa {
   position: absolute;
-  background: rgba(54, 70, 158, 0.55);
+  background: rgba(54, 70, 158, 0.5);
   transition: all 500ms ease-out;
-  top: 0;
+  bottom: 0;
   visibility: hidden;
   text-align: center;
   opacity: 0;
   width: auto;
-  height: auto; }
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; }
 
-.card figure:hover > .capa {
+.card figure:hover .capa {
   opacity: 1;
   visibility: visible; }
 
-.nodeco:hover {
-  color: midnightblue; }
+/*hover para resto de carreras*/
+.card figure .capa {
+  position: absolute;
+  background: rgba(54, 70, 158, 0.5);
+  transition: all 500ms ease-out;
+  bottom: 0;
+  visibility: hidden;
+  text-align: center;
+  opacity: 0;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto; }
+
+.card figure:hover .capa {
+  opacity: 1;
+  visibility: visible; }
 
 /*PAGINA EXPERIENCIAS*/
 /*GRIDS EXPERIENCIAS*/
