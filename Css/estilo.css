@@ -162,9 +162,9 @@ h2.centrar {
   transition: all 500ms ease-out;
   overflow: hidden; }
 
-.card figure .capa {
+.capa, .capa--yacanto, .capa--cruce, .capa--yaboty {
   position: absolute;
-  background: rgba(54, 70, 158, 0.5);
+  background: rgba(4, 4, 7, 0.5);
   transition: all 500ms ease-out;
   bottom: 0;
   visibility: hidden;
@@ -175,29 +175,39 @@ h2.centrar {
   margin-left: auto;
   margin-right: auto; }
 
-.card figure:hover .capa {
+.card figure:hover .capa, .card figure:hover .capa--yacanto, .card figure:hover .capa--cruce, .card figure:hover .capa--yaboty {
   opacity: 1;
   visibility: visible; }
 
 /*hover para resto de carreras*/
-.card figure .capa {
-  position: absolute;
-  background: rgba(54, 70, 158, 0.5);
-  transition: all 500ms ease-out;
-  bottom: 0;
-  visibility: hidden;
-  text-align: center;
-  opacity: 0;
-  width: auto;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto; }
+.capa--yacanto {
+  background: rgba(14, 8, 2, 0.6);
+  color: white; }
 
-.card figure:hover .capa {
+.card figure:hover .capa--yacanto {
+  opacity: 1;
+  visibility: visible; }
+
+.capa--cruce {
+  background: rgba(14, 8, 2, 0.6);
+  color: white; }
+
+.card figure:hover .capa--cruce {
+  opacity: 1;
+  visibility: visible; }
+
+.capa--yaboty {
+  background: rgba(223, 223, 223, 0.618);
+  color: white; }
+
+.card figure:hover .capa--yaboty {
   opacity: 1;
   visibility: visible; }
 
 /*PAGINA EXPERIENCIAS*/
+.testimonio {
+  margin-top: 30px; }
+
 /*GRIDS EXPERIENCIAS*/
 #texto {
   grid-area: texto;
