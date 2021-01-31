@@ -223,14 +223,23 @@ h2.centrar {
 
 /*PAGINA EXPERIENCIAS*/
 .haruki {
-  margin: 30px;
-  padding: 10px; }
+  padding: 20px;
+  margin-left: 0px; }
+
+.posicionvideos {
+  margin-left: auto;
+  margin-right: auto; }
 
 .testimonio {
   margin-top: 30px;
   margin-left: 0px;
   margin-bottom: 0px;
-  padding: 0px; }
+  background-color: #474554;
+  color: white;
+  padding: 20px; }
+
+.jose {
+  margin: 0%; }
 
 .fototesti {
   display: block;
@@ -244,10 +253,6 @@ h2.centrar {
   display: inline-block; }
 
 /*GRIDS EXPERIENCIAS*/
-#texto {
-  grid-area: texto;
-  font-style: italic; }
-
 .videoResponsive {
   position: relative;
   height: 0;
