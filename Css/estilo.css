@@ -234,11 +234,12 @@ h2.centrar {
 
 .fototesti {
   display: block;
-  margin: auto; }
+  margin: auto;
+  width: 100%; }
 
 .linea {
   height: 3px;
-  background-color: #005A34;
+  background-color: orange;
   width: 10%;
   display: inline-block; }
 
