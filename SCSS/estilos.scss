@@ -64,7 +64,7 @@ footer a:hover{background: #D2D5DB;
 
 footer{text-align:center; 
             width: 100%;
-            ;}
+           }
             
 
 aside li{list-style: none;}
@@ -233,10 +233,15 @@ h2.centrar{text-align: center;}
 
 /*PAGINA EXPERIENCIAS*/
 
-.haruki{
+.haruki{background-color: #474554;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 20px;
+        color: white;
+
         
-        margin-left: 0px;}
+
+        }
 .posicionvideos{margin-left: auto;
                 margin-right: auto;}
 

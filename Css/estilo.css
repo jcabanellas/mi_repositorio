@@ -223,8 +223,11 @@ h2.centrar {
 
 /*PAGINA EXPERIENCIAS*/
 .haruki {
+  background-color: #474554;
+  margin-left: 0px;
+  margin-right: 0px;
   padding: 20px;
-  margin-left: 0px; }
+  color: white; }
 
 .posicionvideos {
   margin-left: auto;
