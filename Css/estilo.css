@@ -170,6 +170,7 @@ h2.centrar {
   height: auto;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 20px;
   color: white; }
 
 .card figure:hover .capa, .card figure:hover .capa--yacanto, .card figure:hover .capa--cruce, .card figure:hover .capa--yaboty, .card figure:hover .capa--fiambala, .card figure:hover .capa--ushuaia {
@@ -227,7 +228,8 @@ h2.centrar {
 
 .posicionvideos {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 10px; }
 
 .testimonio {
   margin-top: 30px;
