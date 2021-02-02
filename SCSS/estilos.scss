@@ -1,5 +1,4 @@
-*{   
-    font-family: 'Open Sans', sans-serif;
+*{font-family: 'Open Sans', sans-serif;
     
     }
 
@@ -63,10 +62,12 @@ footer a:hover{background: #D2D5DB;
 
 
 footer{text-align:center; 
-            width: 100%;
+        width: 100%;
+        color: midnightblue;
+        margin-top: 20px;
            }
             
-
+a{color: midnightblue;}
 aside li{list-style: none;}
 
 @keyframes animacion{
@@ -94,8 +95,6 @@ li.animacion {
 h1{text-align: center; font-size: 250%; text-transform: uppercase; margin-top: 10px; font-weight: bold;color:midnightblue}
 
 h3{text-align: center;}
-a{text-decoration: none;
-    color: midnightblue;}
 li{margin: 10px;}
 
 #enlaceSeleccionado{color: coral;}
@@ -165,10 +164,9 @@ h2.centrar{text-align: center;}
     margin-right: 10%;
     padding: 20px;
     
-    color: white;
-                    
-                    
-                    }
+    color: white;}
+.h-50 {height: 50% !important;
+      }
 
 .card figure:hover .capa {
                             opacity: 1;
@@ -229,8 +227,11 @@ h2.centrar{text-align: center;}
                                 
                                 opacity: 1;
                                 visibility: visible;}
+
+
                                 
-                              
+.deco{color: orange;
+        text-decoration: none;}                              
 
 
 
@@ -288,8 +289,7 @@ h2.centrar{text-align: center;}
                         height: 100%;}
 
 
-footer{margin-top: 20px;
-}                     
+                     
 
 /*TIENDAS AMIGAS*/
 
