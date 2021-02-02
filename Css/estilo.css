@@ -293,6 +293,13 @@ footer {
   flex-wrap: wrap;
   margin-left: 10px; }
 
+.nosotros {
+  padding: 20px;
+  margin: 10px; }
+
+.formulario {
+  padding: 20px; }
+
 .enviar {
   margin-right: auto;
   margin-left: auto;
@@ -312,6 +319,10 @@ footer {
 
 .listaComentarios {
   font-style: italic; }
+
+.prueba {
+  background-color: #474554;
+  color: white; }
 
 /*SASS*/
 .redes__instagram {
