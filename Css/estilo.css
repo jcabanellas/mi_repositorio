@@ -164,14 +164,13 @@ h2.centrar {
   position: absolute;
   background: rgba(5, 11, 14, 0.678);
   transition: all 500ms ease-out;
-  bottom: 0;
+  bottom: 0%;
   visibility: hidden;
   text-align: center;
   opacity: 0;
   width: auto;
   height: auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: center;
   padding: 20px;
   color: white; }
 
