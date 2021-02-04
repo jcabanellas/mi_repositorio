@@ -115,13 +115,14 @@ footer {
   width: 100%;
   color: white;
   margin: 0px;
+  padding-top: 10px;
   background-color: #787586; }
 
 footer a {
   color: white; }
 
 .titulo {
-  vertical-align: middle; }
+  align-items: center; }
 
 @keyframes animacion {
   0% {
