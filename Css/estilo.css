@@ -96,11 +96,12 @@ h4 {
 footer {
   text-align: center;
   width: 100%;
-  color: midnightblue;
-  margin-top: 20px; }
+  color: white;
+  margin: 0px;
+  background-color: #787586; }
 
 footer a {
-  color: midnightblue; }
+  color: white; }
 
 @keyframes animacion {
   0% {
