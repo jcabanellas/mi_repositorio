@@ -78,6 +78,27 @@ footer a:hover{background: #D2D5DB;
             top: 0%;
             display: inline-block;
             margin: 10px;}
+.lineacinco{height: 1vh;
+                background-color: #35CCE8;
+                width: 100%;
+                top: 0%;
+                
+                margin: 0px;
+                border: 0px;}
+.lineaseis{height: 1vh;
+            background-color: white;
+            width: 100%;
+            top: 0%;
+           
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border: 0px;
+            }
+                    
+
+
+
+
 .nopuntos{list-style-type: none;}
 
 h4{text-align: center;}
@@ -92,7 +113,8 @@ footer{text-align:center;
         
         background-color: #787586;
            }
-footer a{color:white;}            
+footer a{color:white;}     
+.titulo{vertical-align:middle;}       
 
 
 @keyframes animacion{
