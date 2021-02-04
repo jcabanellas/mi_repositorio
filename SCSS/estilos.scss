@@ -47,10 +47,13 @@ nav ul li:hover ul{display: block;}
 /*SECCIONES INDEX*/
 
 article{width: 50%;
-        background-color: #787586;
         color: white;}
+.ultimas{margin: 10px;}
 
-aside{width: 50%;}
+aside{width: 50%;
+    color: whitesmoke;}
+aside li{list-style: none;}
+
 footer a:hover{background: #D2D5DB;
                 text-decoration: none;
                 color: midnightblue;}
@@ -61,6 +64,25 @@ footer a:hover{background: #D2D5DB;
           width: 100%;
           margin-top: 20px;
           }
+.lineatres{height: 5vh;
+            background-color: orange;
+            width: 1px;
+            border-left: 6px solid orange;
+            top: 0%;
+            display: inline-block;
+            margin: 10px;}
+.lineacuatro{height: 1vh;
+            background-color: orange;
+            width: 1px;
+            border-left: 6px solid orange;
+            top: 0%;
+            display: inline-block;
+            margin: 10px;}
+.nopuntos{list-style-type: none;}
+
+h4{text-align: center;}
+        
+            
 
 
 footer{text-align:center; 
@@ -70,7 +92,7 @@ footer{text-align:center;
            }
 footer a{color: midnightblue;}
             
-aside li{list-style: none;}
+
 
 @keyframes animacion{
     0%{background-color: #D2D5DB;}
