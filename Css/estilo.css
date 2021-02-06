@@ -276,6 +276,9 @@ h2.centrar {
 a:link {
   text-decoration: none; }
 
+button:hover a {
+  color: midnightblue; }
+
 /*PAGINA EXPERIENCIAS*/
 .haruki {
   background-color: #787586;
