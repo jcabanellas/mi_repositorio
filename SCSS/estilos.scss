@@ -30,6 +30,7 @@ nav a:hover{background:#D2D5DB;}
 
 /*SEGUNDO NIVEL NAV*/
 
+
 nav ul ul{position: absolute;
     display: none;
     padding: 5px;}
@@ -51,7 +52,8 @@ article{width: 50%;
 .ultimas{margin: 10px;}
 
 aside{width: 50%;
-    color: whitesmoke;}
+    color: whitesmoke;
+    }
 aside li{list-style: none;}
 
 footer a:hover{background: #D2D5DB;
@@ -115,7 +117,9 @@ footer{text-align:center;
         background-color: #787586;
            }
 footer a{color:white;}     
-.titulo{align-items:center;}       
+.titulo{align-content: middle;
+        
+       }       
 
 
 @keyframes animacion{
@@ -406,6 +410,17 @@ a:link{text-decoration: none;}
         border-radius: 0.25rem;
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
           }
+.btndos{@extend .btn;
+        border: 1px solid black;}
+
+.btntres{@extend .btndos}
+
+form :hover .btntres{background-color: orange;
+                color: white;}
+
+.respuestas{list-style: none;
+                padding-left: 20px;}
+
 
 
 
@@ -438,6 +453,8 @@ a:link{text-decoration: none;}
     @else if $condiciontres==suspendida{background-color: red;}
     @else if $condiciontres==postergada{background-color: yellow;}
 }
+
+
 
 
 
