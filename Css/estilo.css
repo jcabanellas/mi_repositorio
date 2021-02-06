@@ -121,9 +121,6 @@ footer {
 footer a {
   color: white; }
 
-.titulo {
-  align-content: middle; }
-
 @keyframes animacion {
   0% {
     background-color: #D2D5DB; }
@@ -275,6 +272,10 @@ h2.centrar {
 
 a:link {
   text-decoration: none; }
+
+.link {
+  color: white;
+  text-transform: uppercase; }
 
 button:hover a {
   color: midnightblue; }
