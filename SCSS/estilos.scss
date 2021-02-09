@@ -58,9 +58,9 @@ aside{width: 50%;
     }
 aside li{list-style: none;}
 
-footer a:hover{background: #D2D5DB;
+footer a:hover{background: none;
                 text-decoration: none;
-                color: midnightblue;}
+                color: orange;}
 
 .displayIndex{display: flex;
           flex-direction:row;    
@@ -198,7 +198,8 @@ h2.centrar{text-align: center;}
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
     cursor: pointer;
-    padding: 0%;}
+    padding: 0%;
+    }
 
 .card figure{position: relative;}
 
@@ -208,6 +209,7 @@ h2.centrar{text-align: center;}
     background: rgba(5, 11, 14, 0.678);
     transition:all 500ms ease-out;
     bottom: 0%;
+    
     visibility: hidden;
     text-align: center;
     opacity: 0;
@@ -283,8 +285,9 @@ h2.centrar{text-align: center;}
 
 .arreglo{color: orange;}
 a:link{text-decoration: none;}
-.link{color: white;
+.link{color: orange;
         text-transform: uppercase;}
+a.link:hover{color: orange;}
 
 button:hover a{color: midnightblue;}
 
@@ -359,6 +362,10 @@ button:hover a{color: midnightblue;}
                         width: 100%;
                         height: 100%;}
 
+#tiendas{background-color:#787586;
+        color:white;
+        padding: 10px;}
+
 
 /*PAGINA NOSOTROS*/
 
@@ -420,8 +427,11 @@ button:hover a{color: midnightblue;}
 
 .btntres{@extend .btndos}
 
-form :hover .btntres{background-color: orange;
+form input:hover.btntres{background-color: orange;
                 color: white;}
+
+footer input:hover.btndos{background-color: orange;
+                            color: white;}                
 
 .respuestas{list-style: none;
                 padding-left: 20px;}
@@ -459,6 +469,19 @@ form :hover .btntres{background-color: orange;
     @else if $condiciontres==postergada{background-color: yellow;}
 }
 
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 

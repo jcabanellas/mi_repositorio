@@ -58,9 +58,9 @@ aside li {
   list-style: none; }
 
 footer a:hover {
-  background: #D2D5DB;
+  background: none;
   text-decoration: none;
-  color: midnightblue; }
+  color: orange; }
 
 .displayIndex {
   display: flex;
@@ -274,8 +274,11 @@ a:link {
   text-decoration: none; }
 
 .link {
-  color: white;
+  color: orange;
   text-transform: uppercase; }
+
+a.link:hover {
+  color: orange; }
 
 button:hover a {
   color: midnightblue; }
@@ -353,6 +356,11 @@ button:hover a {
   width: 100%;
   height: 100%; }
 
+#tiendas {
+  background-color: #787586;
+  color: white;
+  padding: 10px; }
+
 /*PAGINA NOSOTROS*/
 .displayContacto {
   display: flex;
@@ -412,7 +420,11 @@ button:hover a {
 .btndos, .btntres {
   border: 1px solid black; }
 
-form :hover .btntres {
+form input:hover.btntres {
+  background-color: orange;
+  color: white; }
+
+footer input:hover.btndos, footer input.btntres:hover {
   background-color: orange;
   color: white; }
 
@@ -446,3 +458,15 @@ form :hover .btntres {
 
 .situacionTres {
   background-color: red; }
+
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto; }
