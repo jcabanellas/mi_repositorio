@@ -62,6 +62,9 @@ footer a:hover {
   text-decoration: none;
   color: orange; }
 
+footer h2:hover {
+  color: orange; }
+
 .displayIndex {
   display: flex;
   flex-direction: row;
